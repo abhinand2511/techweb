@@ -1,11 +1,11 @@
 import React from "react";
-import { assets } from "../assets/assets";
+import logo from  "../assets/hh.png";
 
 const Navbar = () => {
   return (
     <div className="absolute top-0 left-0 w-full z-10">
       <div>
-        <img src={assets.logo} alt="" />
+        <img src="/hh.png" alt="" />
         <ul>
           <a
             href="#Header"
