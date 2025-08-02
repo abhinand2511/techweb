@@ -50,7 +50,9 @@ const WhatWeDo = () => {
         </h2>
         <div className="grid md:grid-cols-2 gap-6 text-center border">
           <div>
-            <h3 className="text-green-700 text-3xl font-semibold mb-2">Expert Guidance:</h3>
+            <h3 className="text-green-700 text-3xl font-semibold mb-2">
+              Expert Guidance:
+            </h3>
             <p className="text-2xl text-black-700 pb-3">
               We’re not just consultants; we’re your partners in making
               impactful financial decisions.{" "}
@@ -66,14 +68,18 @@ const WhatWeDo = () => {
             </p>
           </div>
           <div className="border pr-4 pt-2">
-            <h3 className="text-yellow-700 text-3xl font-semibold mb-2">Proven Success:</h3>
+            <h3 className="text-yellow-700 text-3xl font-semibold mb-2">
+              Proven Success:
+            </h3>
             <p className="text-2xl text-black-700 pb-3">
               We've helped 200+ businesses streamline their finances, secure
               funding, and achieve compliance.{" "}
             </p>
           </div>
           <div>
-            <h3 className="text-blue-500 text-3xl font-semibold mb-2">Client-Focused:</h3>
+            <h3 className="text-blue-500 text-3xl font-semibold mb-2">
+              Client-Focused:
+            </h3>
             <p className="text-2xl text-black-700 pb-3">
               Your business needs come first. We craft solutions that work for
               you, not a one-size-fits-all approach.
@@ -156,8 +162,11 @@ const WhatWeDo = () => {
                 How do you protect client rights?
               </summary>
               <p className="mt-2 text-sm">
-                By maintaining confidentiality and applying appropriate legal
-                protections.
+                Protecting client rights is one of our core principles. We are
+                dedicated to advocating for our clients' best interests and
+                diligently safeguarding their rights. We represent our clients
+                fairly and effectively throughout legal processes to help them
+                achieve successful outcomes.
               </p>
             </details>
             <details className="bg-white border p-4 rounded shadow">
@@ -165,8 +174,15 @@ const WhatWeDo = () => {
                 What are your achievements in handling legal matters?
               </summary>
               <p className="mt-2 text-sm">
-                We’ve helped 100+ clients in financial, legal, and regulatory
-                matters.
+                CRN Law Firm has achieved success in a diverse range of legal
+                matters. We have protected clients' intellectual property
+                rights, providing them with a competitive advantage.
+                Additionally, we have obtained favorable results in commercial
+                litigations and offered support in complex real estate
+                transactions. In family law, we have provided emotional and
+                legal assistance to our clients. Our achievements are a result
+                of our focus on clients, the expertise of our team, and our
+                determination to deliver favorable outcomes.
               </p>
             </details>
             <details className="bg-white border p-4 rounded shadow">
@@ -174,8 +190,11 @@ const WhatWeDo = () => {
                 How do you handle sensitive family law matters with care?
               </summary>
               <p className="mt-2 text-sm">
-                We use empathy, discretion, and legal expertise to serve your
-                interests.
+                We understand the sensitive nature of family law cases. Our
+                compassionate team at CRN Law Firm approaches such matters with
+                empathy and discretion, providing emotional support while
+                working diligently to achieve the best possible outcomes for our
+                clients and their families.
               </p>
             </details>
           </div>
