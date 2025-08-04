@@ -155,8 +155,11 @@ const WhatWeDo = () => {
       {/* FAQ Section - Aligned left */}
 <section className="bg-gray-50 py-16 px-4">
   <div className="max-w-7xl mx-auto">
-    <h2 className="text-5xl font-bold text-[#830000] mb-10 pb-5">
+    <h2 className="text-2xl font-light text-[#830000] mb-10 pb-5">
       Frequently Asked Questions
+    </h2>
+    <h2 className="text-5xl font-bold text-black mb-10 pb-5">
+      We Answered All
     </h2>
     <div className="space-y-0">
       <details className="group border-b border-gray-200 py-6">
