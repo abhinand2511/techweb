@@ -152,78 +152,69 @@ const WhatWeDo = () => {
       </section>
 
       {/* FAQ Section */}
-      {/* FAQ Section - Only border-bottom added */}
-      <section className="bg-gray-50 py-16 pl-4 pr-0">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold mb-4 text-left text-gray-800">
-            Frequently Asked Questions
-          </h2>
-          <div className="space-y-0">
-            {" "}
-            {/* Changed from space-y-4 to remove extra spacing between items */}
-            {/* FAQ Item 1 */}
-            <details className="group border-b border-gray-200 py-6">
-              {" "}
-              {/* Added border-b */}
-              <summary className="flex justify-between items-center cursor-pointer list-none">
-                <h3 className="font-semibold text-lg text-gray-700">
-                  How do you protect client rights?
-                </h3>
-                <img
-                  src={plus}
-                  alt="Toggle answer"
-                  className="w-6 h-6 transform group-open:rotate-45 transition-transform"
-                />
-              </summary>
-              <p className="mt-4 text-gray-600">
-                Protecting client rights is one of our core principles. We are
-                dedicated to advocating for our clients' best interests and
-                diligently safeguarding their rights.
-              </p>
-            </details>
-            {/* FAQ Item 2 */}
-            <details className="group border-b border-gray-200 py-6">
-              {" "}
-              {/* Added border-b, removed pt-10 */}
-              <summary className="flex justify-between items-center cursor-pointer list-none">
-                <h3 className="font-semibold text-lg text-gray-700">
-                  What are your achievements in handling legal matters?
-                </h3>
-                <img
-                  src={plus}
-                  alt="Toggle answer"
-                  className="w-6 h-6 transform group-open:rotate-45 transition-transform"
-                />
-              </summary>
-              <p className="mt-4 text-gray-600">
-                CRN Law Firm has achieved success in a diverse range of legal
-                matters. We have protected clients' intellectual property
-                rights, providing them with a competitive advantage.
-              </p>
-            </details>
-            {/* FAQ Item 3 */}
-            <details className="group border-b border-gray-200 py-6">
-              {" "}
-              {/* Added border-b */}
-              <summary className="flex justify-between items-center cursor-pointer list-none">
-                <h3 className="font-semibold text-lg text-gray-700">
-                  How do you handle sensitive family law matters with care?
-                </h3>
-                <img
-                  src={plus}
-                  alt="Toggle answer"
-                  className="w-6 h-6 transform group-open:rotate-45 transition-transform"
-                />
-              </summary>
-              <p className="mt-4 text-gray-600">
-                We understand the sensitive nature of family law cases. Our
-                compassionate team approaches such matters with empathy and
-                discretion.
-              </p>
-            </details>
-          </div>
-        </div>
-      </section>
+      {/* FAQ Section - Aligned left */}
+<section className="bg-gray-50 py-16 px-4">
+  <div className="max-w-7xl mx-auto">
+    <h2 className="text-5xl font-bold text-[#830000] mb-10 pb-5">
+      Frequently Asked Questions
+    </h2>
+    <div className="space-y-0">
+      <details className="group border-b border-gray-200 py-6">
+        <summary className="flex justify-between items-center cursor-pointer list-none">
+          <h3 className="font-semibold text-2xl text-gray-700">
+            How do you protect client rights?
+          </h3>
+          <img
+            src={plus}
+            alt="Toggle answer"
+            className="w-6 h-6 transform group-open:rotate-45 transition-transform"
+          />
+        </summary>
+        <p className="mt-4 text-xl text-gray-600">
+          Protecting client rights is one of our core principles. We are
+          dedicated to advocating for our clients' best interests and
+          diligently safeguarding their rights.
+        </p>
+      </details>
+      
+      <details className="group border-b border-gray-200 py-6">
+        <summary className="flex justify-between items-center cursor-pointer list-none">
+          <h3 className="font-semibold text-2xl text-gray-700">
+            What are your achievements in handling legal matters?
+          </h3>
+          <img
+            src={plus}
+            alt="Toggle answer"
+            className="w-6 h-6 transform group-open:rotate-45 transition-transform"
+          />
+        </summary>
+        <p className="mt-4 text-xl text-gray-600">
+          CRN Law Firm has achieved success in a diverse range of legal
+          matters. We have protected clients' intellectual property
+          rights, providing them with a competitive advantage.
+        </p>
+      </details>
+      
+      <details className="group border-b border-gray-200 py-6">
+        <summary className="flex justify-between items-center cursor-pointer list-none">
+          <h3 className="font-semibold text-2xl text-gray-700">
+            How do you handle sensitive family law matters with care?
+          </h3>
+          <img
+            src={plus}
+            alt="Toggle answer"
+            className="w-6 h-6 transform group-open:rotate-45 transition-transform"
+          />
+        </summary>
+        <p className="mt-4 text-xl text-gray-600">
+          We understand the sensitive nature of family law cases. Our
+          compassionate team approaches such matters with empathy and
+          discretion.
+        </p>
+      </details>
+    </div>
+  </div>
+</section>
     </div>
   );
 };
