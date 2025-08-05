@@ -49,7 +49,7 @@ export const WhatWeDo = () => {
       </section>
 
       {/* Why Choose Us */}
-      <section className="max-w-7xl mx-auto px-4 py-16 grid md:grid-cols-2 gap-10 items-center">
+      <section className="max-w-7xl mx-auto border-b grid md:grid-cols-2 items-center">
         <h2 className="text-6xl font-semibold mb-10">
           Why Choose Techspiration?
         </h2>
@@ -104,58 +104,52 @@ export const WhatWeDo = () => {
             Our Core Services
           </h2>
           <div className="grid md:grid-cols-2 gap-8">
-            <div className="bg-white border p-6 rounded shadow-sm">
-              <h3 className="text-3xl text-green-700 font-bold pb-2 mb-2">
-                1. Tailored Financial Strategy
-              </h3>
-              <p className="text-2xl text-black-700 pb-3">
-                Whether you’re a startup or a growing enterprise, we provide
-                customized financial strategies that align with your specific
-                business goals.
-              </p>
-              <p className="text-2xl text-black-700 pb-10">
-                We help you identify growth opportunities, manage cash flow, and
-                enhance profitability with a sharp, forward-thinking approach.
-              </p>
-            </div>
-            <div className="bg-white border p-6 rounded shadow-sm">
-              <h3 className="text-3xl text-orange-600 font-bold pb-2 mb-2">
-                2. Regulatory Compliance & Licensing
-              </h3>
-              <p className="text-2xl text-black-700 pb-3">
-                Stay ahead of regulatory challenges with our expert registration
-                and licensing services .
-              </p>
-              <p className="text-2xl text-black-700 pb-10">
-                We simplify complex processes to help you meet legal
-                requirements efficiently, ensuring your business operates
-                smoothly in India’s evolving regulatory environment.
-              </p>
-            </div>
-            <div className="bg-white border p-6 rounded shadow-sm">
-              <h3 className="text-3xl text-blue-700 font-bold pb-2 mb-2">
-                3. Business Law Advisory
-              </h3>
-              <p className="text-2xl text-black-700 pb-10">
-                Need financing for your next big move? Our business loan
-                advisory service helps you secure the right type of
-                funding—whether for expansion, working capital, or
-                investment—with tailored loan options and strategic financial
-                planning.
-              </p>
-            </div>
-            <div className="bg-white border p-6 rounded shadow-sm">
-              <h3 className="text-3xl text-purple-700 font-bold pb-2 mb-2">
-                4. Audit & Financial Health Check
-              </h3>
-              <p className="text-2xl text-black-700 pb-10">
-                Our audit services provide a clear snapshot of your business’s
-                financial health. We ensure compliance, uncover potential
-                inefficiencies, and offer insights into improving profitability
-                with data-driven audits that highlight actionable improvements.
-              </p>
-            </div>
-          </div>
+  <div className="bg-white border p-6 rounded shadow-sm pb-40">
+    <h3 className="text-2xl font-bold text-green-700 pb-3 mb-3">
+      1. Tailored Financial Strategy
+    </h3>
+    <p className="text-lg font-semibold text-black-700 pb-4">
+      Whether you’re a startup or a growing enterprise, we provide customized financial strategies that align with your specific business goals.
+    </p>
+    <p className="text-lg font-semibold text-black-700">
+      We help you identify growth opportunities, manage cash flow, and enhance profitability with a sharp, forward-thinking approach.
+    </p>
+  </div>
+
+  <div className="bg-white border p-6 rounded shadow-sm pb-40">
+    <h3 className="text-2xl font-bold text-orange-600 pb-3 mb-3">
+      2. Regulatory Compliance & Licensing
+    </h3>
+    <p className="text-lg font-semibold text-black-700 pb-4">
+      Stay ahead of regulatory challenges with our expert registration and licensing services.
+    </p>
+    <p className="text-lg font-semibold text-black-700">
+      We simplify complex processes to help you meet legal requirements efficiently, ensuring your business operates smoothly in India’s evolving regulatory environment.
+    </p>
+  </div>
+
+  <div className="bg-white border p-6 rounded shadow-sm pb-40">
+    <h3 className="text-2xl font-bold text-blue-700 pb-3 mb-3">
+      3. Business Law Advisory
+    </h3>
+    <p className="text-lg font-semibold text-black-700">
+      Need financing for your next big move? Our business loan advisory service helps you secure the right type of funding—whether for expansion, working capital, or investment—with tailored loan options and strategic financial planning.
+    </p>
+  </div>
+
+  <div className="bg-white border p-6 rounded shadow-sm pb-40">
+    <h3 className="text-2xl font-bold text-purple-700 pb-3 mb-3">
+      4. Audit & Financial Health Check
+    </h3>
+    <p className="text-lg font-semibold text-black-700">
+      Our audit services provide a clear snapshot of your business’s financial health. 
+    </p>
+    <p className="text-lg font-semibold text-black-700">
+          We ensure compliance, uncover potential inefficiencies, and offer insights into improving profitability with data-driven audits that highlight actionable improvements.
+    </p>
+  </div>
+</div>
+
         </div>
       </section>
 
