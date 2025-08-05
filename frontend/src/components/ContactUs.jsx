@@ -98,9 +98,6 @@ const ContactUs = () => {
       <section className="container mx-auto px-5 grid grid-cols-1 md:grid-cols-2 gap-10 py-16 items-start">
         <div className="text">
           <h1 className="text-4xl md:text-5xl font-semibold text-black mb-6">Let's connect</h1>
-          <p className="text-lg text-gray-600">
-            Have questions or want to discuss a project? Fill out the form and we'll get back to you soon.
-          </p>
         </div>
 
         <form onSubmit={handleSubmit} className="w-full max-w-md mx-auto space-y-4">

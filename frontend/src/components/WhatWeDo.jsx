@@ -49,14 +49,14 @@ export const WhatWeDo = () => {
       </section>
 
       {/* Why Choose Us */}
-      <section className="max-w-7xl mx-auto border-b grid md:grid-cols-2 items-center">
-        <h2 className="text-6xl font-semibold mb-10">
+      <section className="max-w mx-auto border-b grid md:grid-cols-2 items-center">
+        <h2 className="text-6xl font-bold mb-10 pl-12 pb-36">
           Why Choose Techspiration?
         </h2>
         <div className="grid md:grid-cols-2 border border-gray-300 rounded overflow-hidden text-center">
   <div className="p-6 border-r border-b border-gray-300 flex flex-col items-center">
     <img src={tick} alt="logo 1" className="w-6 h-6 mb-4" />
-    <h3 className="text-green-700 text-3xl font-semibold mb-2">
+    <h3 className="text-[#B0E57C] text-3xl font-semibold mb-2">
       Expert Guidance:
     </h3>
     <p className="text-2xl text-black-700 pb-3">
@@ -66,7 +66,7 @@ export const WhatWeDo = () => {
 
   <div className="p-6 border-b border-gray-300 flex flex-col items-center">
     <img src={msg} alt="logo 2" className="w-6 h-6 mb-4" />
-    <h3 className="text-red-300 text-3xl font-semibold mb-2">
+    <h3 className="text-[#e67300] text-3xl font-semibold mb-2">
       Fast, Clear Solutions:
     </h3>
     <p className="text-2xl text-black-700 pb-3">
@@ -76,7 +76,7 @@ export const WhatWeDo = () => {
 
   <div className="p-6 border-r border-gray-300 flex flex-col items-center">
     <img src={secure} alt="logo 3" className="w-6 h-6 mb-4" />
-    <h3 className="text-yellow-700 text-3xl font-semibold mb-2">
+    <h3 className="text-[#e6b800] text-3xl font-semibold mb-2">
       Proven Success:
     </h3>
     <p className="text-2xl text-black-700 pb-3">
@@ -86,7 +86,7 @@ export const WhatWeDo = () => {
 
   <div className="p-6 flex flex-col items-center">
     <img src={lock} alt="logo 4" className="w-6 h-6 mb-4" />
-    <h3 className="text-blue-500 text-3xl font-semibold mb-2">
+    <h3 className="text-[#00ccff] text-3xl font-semibold mb-2">
       Client-Focused:
     </h3>
     <p className="text-2xl text-black-700 pb-3">
@@ -99,13 +99,13 @@ export const WhatWeDo = () => {
 
       {/* Core Services */}
       <section className="bg-gray-50 py-16 px-4">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-5xl font-bold text-[#610218] mb-10 pb-5">
+        <div className="max-w-8xl mx-auto">
+          <h2 className="text-5xl font-bold text-[#610218] mb-10 pb-5 pl-12">
             Our Core Services
           </h2>
           <div className="grid md:grid-cols-2 gap-8">
   <div className="bg-white border p-6 rounded shadow-sm pb-40">
-    <h3 className="text-2xl font-bold text-green-700 pb-3 mb-3">
+    <h3 className="text-2xl font-bold text-[#B0E57C] pb-3 mb-3">
       1. Tailored Financial Strategy
     </h3>
     <p className="text-lg font-semibold text-black-700 pb-4">
@@ -117,7 +117,7 @@ export const WhatWeDo = () => {
   </div>
 
   <div className="bg-white border p-6 rounded shadow-sm pb-40">
-    <h3 className="text-2xl font-bold text-orange-600 pb-3 mb-3">
+    <h3 className="text-2xl font-bold text-[#e67300] pb-3 mb-3">
       2. Regulatory Compliance & Licensing
     </h3>
     <p className="text-lg font-semibold text-black-700 pb-4">
@@ -129,7 +129,7 @@ export const WhatWeDo = () => {
   </div>
 
   <div className="bg-white border p-6 rounded shadow-sm pb-40">
-    <h3 className="text-2xl font-bold text-blue-700 pb-3 mb-3">
+    <h3 className="text-2xl font-bold text-[#e6b800] pb-3 mb-3">
       3. Business Law Advisory
     </h3>
     <p className="text-lg font-semibold text-black-700">
@@ -138,7 +138,7 @@ export const WhatWeDo = () => {
   </div>
 
   <div className="bg-white border p-6 rounded shadow-sm pb-40">
-    <h3 className="text-2xl font-bold text-purple-700 pb-3 mb-3">
+    <h3 className="text-2xl font-bold text-[#00ccff] pb-3 mb-3">
       4. Audit & Financial Health Check
     </h3>
     <p className="text-lg font-semibold text-black-700">
@@ -154,12 +154,12 @@ export const WhatWeDo = () => {
       </section>
 
       {/* FAQ Section */}
-      <section className="bg-gray-50 py-16 px-4">
+      <section className="bg-gray-50 py-16 px-4 border-2 ml-7">
   <div className="max-w-7xl mx-auto">
     <h2 className="text-2xl font-light text-[#830000] mb-10 pb-5">
       Frequently Asked Questions
     </h2>
-    <h2 className="text-5xl font-bold text-black mb-10 pb-5">
+    <h2 className="text-5xl font-medium text-black mb-10 pb-5">
       We Answered All
     </h2>
     <div className="space-y-0">
