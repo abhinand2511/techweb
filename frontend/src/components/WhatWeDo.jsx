@@ -1,8 +1,12 @@
-import React from "react";
-import logo from "../assets/whatwedo.jpg";
 import plus from "../assets/plus.png";
+import logo from "../assets/whatwedo.jpg";
+import tick from "../assets/tick.png";
+import msg from "../assets/msg.png";
+import secure from "../assets/secure.png";
+import lock from "../assets/lock.png";
 
-const WhatWeDo = () => {
+
+export const WhatWeDo = () => {
   return (
     <div className="font-sans text-black-800 pt-8">
       {/* Hero Section */}
@@ -37,7 +41,7 @@ const WhatWeDo = () => {
       </section>
 
       {/* Red Clarity Banner */}
-      <section className="bg-[#800000] text-2xl text-slate-100 text-center py-24 px-16">
+      <section className="bg-[#610218] text-2xl text-slate-100 text-center py-24 px-16">
         We focus on <span className="font-bold">clarity</span>,{" "}
         <span className="font-bold">actionable advice</span>, and{" "}
         <span className="font-bold">results</span>, helping you navigate complex
@@ -49,50 +53,54 @@ const WhatWeDo = () => {
         <h2 className="text-6xl font-semibold mb-10">
           Why Choose Techspiration?
         </h2>
-        <div className="grid md:grid-cols-2 gap-6 text-center border">
-          <div>
-            <h3 className="text-green-700 text-3xl font-semibold mb-2">
-              Expert Guidance:
-            </h3>
-            <p className="text-2xl text-black-700 pb-3">
-              We’re not just consultants; we’re your partners in making
-              impactful financial decisions.{" "}
-            </p>
-          </div>
-          <div>
-            <h3 className="text-red-300 text-3xl font-semibold mb-2">
-              Fast, Clear Solutions:
-            </h3>
-            <p className="text-2xl text-black-700 pb-3">
-              Get straight-to-the-point advice that works for your business—no
-              jargon, just results.{" "}
-            </p>
-          </div>
-          <div className="border pr-4 pt-2">
-            <h3 className="text-yellow-700 text-3xl font-semibold mb-2">
-              Proven Success:
-            </h3>
-            <p className="text-2xl text-black-700 pb-3">
-              We've helped 200+ businesses streamline their finances, secure
-              funding, and achieve compliance.{" "}
-            </p>
-          </div>
-          <div>
-            <h3 className="text-blue-500 text-3xl font-semibold mb-2">
-              Client-Focused:
-            </h3>
-            <p className="text-2xl text-black-700 pb-3">
-              Your business needs come first. We craft solutions that work for
-              you, not a one-size-fits-all approach.
-            </p>
-          </div>
-        </div>
+        <div className="grid md:grid-cols-2 border border-gray-300 rounded overflow-hidden text-center">
+  <div className="p-6 border-r border-b border-gray-300 flex flex-col items-center">
+    <img src={tick} alt="logo 1" className="w-6 h-6 mb-4" />
+    <h3 className="text-green-700 text-3xl font-semibold mb-2">
+      Expert Guidance:
+    </h3>
+    <p className="text-2xl text-black-700 pb-3">
+      We’re not just consultants; we’re your partners in making impactful financial decisions.
+    </p>
+  </div>
+
+  <div className="p-6 border-b border-gray-300 flex flex-col items-center">
+    <img src={msg} alt="logo 2" className="w-6 h-6 mb-4" />
+    <h3 className="text-red-300 text-3xl font-semibold mb-2">
+      Fast, Clear Solutions:
+    </h3>
+    <p className="text-2xl text-black-700 pb-3">
+      Get straight-to-the-point advice that works for your business—no jargon, just results.
+    </p>
+  </div>
+
+  <div className="p-6 border-r border-gray-300 flex flex-col items-center">
+    <img src={secure} alt="logo 3" className="w-6 h-6 mb-4" />
+    <h3 className="text-yellow-700 text-3xl font-semibold mb-2">
+      Proven Success:
+    </h3>
+    <p className="text-2xl text-black-700 pb-3">
+      We've helped 200+ businesses streamline their finances, secure funding, and achieve compliance.
+    </p>
+  </div>
+
+  <div className="p-6 flex flex-col items-center">
+    <img src={lock} alt="logo 4" className="w-6 h-6 mb-4" />
+    <h3 className="text-blue-500 text-3xl font-semibold mb-2">
+      Client-Focused:
+    </h3>
+    <p className="text-2xl text-black-700 pb-3">
+      Your business needs come first. We craft solutions that work for you, not a one-size-fits-all approach.
+    </p>
+  </div>
+</div>
+
       </section>
 
       {/* Core Services */}
       <section className="bg-gray-50 py-16 px-4">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-5xl font-bold text-[#830000] mb-10 pb-5">
+          <h2 className="text-5xl font-bold text-[#610218] mb-10 pb-5">
             Our Core Services
           </h2>
           <div className="grid md:grid-cols-2 gap-8">
@@ -152,8 +160,7 @@ const WhatWeDo = () => {
       </section>
 
       {/* FAQ Section */}
-      {/* FAQ Section - Aligned left */}
-<section className="bg-gray-50 py-16 px-4">
+      <section className="bg-gray-50 py-16 px-4">
   <div className="max-w-7xl mx-auto">
     <h2 className="text-2xl font-light text-[#830000] mb-10 pb-5">
       Frequently Asked Questions
@@ -221,5 +228,3 @@ const WhatWeDo = () => {
     </div>
   );
 };
-
-export default WhatWeDo;
